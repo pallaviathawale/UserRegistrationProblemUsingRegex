@@ -9,7 +9,7 @@ namespace UserRegistrationproblemUsingRegex
 {
     internal class Pattern
     {
-        public static string Regex_Rule = "^[A-Z][A-Za-z]{3,9}$";
+        public static string Regex_Rule = "^[a-zA-Z0-9]+[.][a-zA-Z0-9]+[@][A-Za-z]+[.][a-zA-Z]{2,3}[.][a-z]{2}$";
 
         public bool validatePinCode(string inputString)
         {
