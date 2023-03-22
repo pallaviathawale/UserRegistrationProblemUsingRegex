@@ -6,7 +6,7 @@
         {
             Pattern pattern = new Pattern();
             //if (pattern.Inputvalidate("pallav2@"))//invalid password
-            if (pattern.Inputvalidate("Pall2avi")) //valid 
+            if (pattern.Inputvalidate("Palla@v2")) //valid 
                 {
                 Console.WriteLine("Valid");
                 }

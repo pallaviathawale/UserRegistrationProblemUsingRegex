@@ -10,7 +10,7 @@ namespace UserRegistrationproblemUsingRegex
     internal class Pattern
     {
         
-         public static string Regex_Rule = "^(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]{8,}$"; //UC6-at least one numeric Number
+         public static string Regex_Rule = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_])[a-zA-Z0-9!@#$%^&*_]{8,}$"; 
         
 
         public bool Inputvalidate(string inputString)
