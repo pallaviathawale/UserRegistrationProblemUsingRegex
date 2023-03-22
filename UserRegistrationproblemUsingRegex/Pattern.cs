@@ -10,10 +10,10 @@ namespace UserRegistrationproblemUsingRegex
     internal class Pattern
     {
         
-         public static string Regex_Rule = "^(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_])[a-zA-Z0-9!@#$%^&*_]{8,}$"; 
+         public static string Regex_Rule = "^([a-zA-Z0-9]+[.-])*[a-zA-Z0-9]+[@][A-Za-z]+[.][a-zA-Z]{2,3}[,]([.,][a-z]{2})*$"; 
         
 
-        public bool Inputvalidate(string inputString)
+        public bool validateEmail(string inputString)
         {
             return Regex.IsMatch(inputString, Regex_Rule);
         }

@@ -5,10 +5,14 @@
         static void Main(string[] args)
         {
             Pattern pattern = new Pattern();
-            //if (pattern.Inputvalidate("pallav2@"))//invalid password
-            if (pattern.Inputvalidate("Palla@v2")) //valid 
-                {
-                Console.WriteLine("Valid");
+            //Eamil-Samples
+            //if (pattern.validateEmail("abc@yahoo.com,")) //valid 
+            //if (pattern.validateEmail("abc-100@yahoo.com,"))//valid
+            //if (pattern.validateEmail("abc.100@yahoo.com")) //valid
+            if (pattern.validateEmail("abc111@abc.com,"))//
+            
+            {
+                    Console.WriteLine("Valid");
                 }
             else
             {
