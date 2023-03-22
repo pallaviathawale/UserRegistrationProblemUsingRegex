@@ -5,8 +5,8 @@
         static void Main(string[] args)
         {
             Pattern pattern = new Pattern();
-            if (pattern.validatePinCode("+91 7218533707"))//Valid phon number
-            //if (pattern.validatePinCode("+91 7218533399"))//invalid phon number
+           // if (pattern.validatePinCode("Pallav2@"))//invalid password
+           if (pattern.Inputvalidate("Pallav22")) //valid 
                 {
                 Console.WriteLine("Valid");
             }
